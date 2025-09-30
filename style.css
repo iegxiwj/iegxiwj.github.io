@@ -14,9 +14,7 @@ h3{color: darkred;}
 
 p{font-size: 19px;}
 
-h1{text-align: center;
-text-decoration: underline;
-font-family: serif;}
+
 
 img{margin:auto;}
 
@@ -29,3 +27,44 @@ h3 {text-decoration: underline;}
 
 img{border-radius: 20px;}
 ul {font-size:large;}
+
+
+
+
+#navbar {
+    background-color: #333;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+justify-content: space-between;}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 4px;
+    font-size: 25px;
+}
+.logo {padding: 20px;}
+
+
+#navbar ul li a:hover {
+    background-color: dimgrey;
+    border-radius: 5px;
+}
+
+
+
+
