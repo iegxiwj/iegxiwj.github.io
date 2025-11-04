@@ -1,3 +1,6 @@
+* {box-sizing: border-box;
+}
+
 
 .container {
     background-color: rgb(141, 146, 160);
@@ -62,18 +65,23 @@ justify-content: space-between;}
 }
 .logo {padding: 10px;
 margin: auto;
-height: 493px;
-width: 861px;
+width: 100%;
 
 
 }
 
 
 
-@media(max-width:500px) {
-    #smartphone {
-        display: block;
-    }
-}
+
+
 
 header { display: flex;}
+@media(max-width:500px) {
+    body {
+        background-color: red;
+    }
+
+    #smartphone {
+        display: block;
+  
+    }}
