@@ -1,4 +1,5 @@
-* {box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 
@@ -6,33 +7,49 @@
     background-color: rgb(141, 146, 160);
     max-width: 1000px;
     border-radius: 35px;
-    box-shadow: rgba(0, 0, 0, 0.35)
-                     0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 100px auto;
-    padding: 5px 30px;}
-    
-h2 {color: darkblue;}
-
-h3{color: darkred;}
-
-p{font-size: 19px;}
-
-
-
-img{margin:auto;
-display: flex;
+    padding: 5px 30px;
 }
 
-.container {box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+h2 {
+    color: darkblue;
 }
 
-body {background-color: darkgray;}
-
-h3 {text-decoration: underline;}
-
-img{border-radius: 20px;
+h3 {
+    color: darkred;
 }
-ul {font-size:large;}
+
+p {
+    font-size: 19px;
+}
+
+
+
+img {
+    margin: auto;
+    display: flex;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 20px;
+}
+
+ul {
+    font-size: large;
+}
 
 
 
@@ -56,16 +73,19 @@ ul {font-size:large;}
 #navbar ul {
     display: flex;
     list-style: none;
-justify-content: space-between;}
+    justify-content: space-between;
+}
 
 #navbar ul li a {
     padding: 10px;
     margin: 4px;
     font-size: 25px;
 }
-.logo {padding: 10px;
-margin: auto;
-width: 100%;
+
+.logo {
+    padding: 10px;
+    margin: auto;
+    width: 100%;
 
 
 }
@@ -75,10 +95,15 @@ width: 100%;
 
 
 
-header { display: flex;}
+header {
+    display: flex;
+}
+
 @media(max-width:500px) {
 
-.nom {display: none;}
+    .nom {
+        display: none;
+    }
 
     body {
         background-color: red;
@@ -86,5 +111,5 @@ header { display: flex;}
 
     #smartphone {
         display: block;
-  }
+    }
 }
