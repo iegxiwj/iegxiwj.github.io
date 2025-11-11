@@ -80,7 +80,7 @@ header { display: flex;}
     body {
         background-color: red;
     }
-
+     .nom {display: none;}
     #smartphone {
         display: block;
   
