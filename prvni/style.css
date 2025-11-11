@@ -77,11 +77,14 @@ width: 100%;
 
 header { display: flex;}
 @media(max-width:500px) {
+
+.nom {display: none;}
+
     body {
         background-color: red;
     }
-     .nom {display: none;}
+
     #smartphone {
         display: block;
-  
-    }}
+  }
+}
